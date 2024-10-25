@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive bootstrap landing template">
+    <meta name="author" content="Themesdesign">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Slima | Responsive Bootstrap Landing Template</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- tiny slider -->
+    <link href="css/tiny-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css" type="text/css" />
+
+
+    <!-- Materialdesign icons css -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="71">
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg fixed-top sticky" id="navbar">
+        <div class="container-fluid custom-container">
+            <a class="navbar-brand logo text-uppercase" href="index.html">
+                
+            </a>
+
+            <button class="navbar-toggler me-3 order-2 ms-4" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-label="Toggle navigation">
+                <i class="mdi mdi-menu"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mx-auto navbar-center">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a href="#about" class="nav-link ">About</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a href="#projects" class="nav-link ">Projects</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-hover">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                    </li>
+                </ul>
+                <!-- <button class="btn btn-primary">
+                    Contact</button> -->
+                <!--end navbar-nav-->
+            </div>
+        </div>
+        <!--end container-->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- start home section -->
+    <section class="home" id="home">
+        <div class="container" id="ani-round">
+            <div class="home-content">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="get-link mt-4">
+                            <a href="" class="text-primary font-weight-600 f-30"><span>Hi, My name is</a>
+                        </div>
+                        <h2 class="title mt-5 mt-lg-0">
+                            Muhammad Haikal Yusuf
+                        </h2>
+                        <p class="f-16 my-2 text-muted">I am currently Based in Bogor. I have passion for coding and challenging myself creatively.
+                            I can build functional websites using the CodeIgniter PHP framework.</p>
+                        <a href="images/Muhammad Haikal Yusuf.pdf" class="btn btn-primary target="_blank""><i class="mdi mdi-cloud-download f-20 align-middle me-2"></i>
+                            Download CV</a>
+
+                    </div>
+                    <div class="col-lg-6 mt-5">
+                        <div class="animation-image" id="home-animation">
+                            <div class="main-image mt-5 mt-lg-0 ms-lg-5 position-relative">
+                                <div class="image-wrapper position-relative overflow-hidden rounded-3">
+                                    <img src="images/home/home-bg.jpeg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end section -->
+
+        <!-- start features -->
+        <section class="section " id="about">
+            <div class="container">
+                <div class="row align-items-center" id="part1">
+                    <div class="col-lg-7">
+                        <div class="sec-image position-relative " id="sec-image">
+                            <div class="bg-img overflow-hidden border-radius">
+                                <img src="images/features/img-1.jpeg" alt="" class="img-fluid">
+                            </div>
+                            <div id="imgcontainer-1">
+                                <div id="inner-2">
+                                    <div class="demo-img">
+                                        <div class="demo-overlay">
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 mt-5 mt-lg-0">
+                        <h1 class="fw-bold mt-2"><span class="text-primary fw-normal">Muhammad Haikal Yusuf</span></h1>
+                        <p class="mt-3">I am a web developer currently studying at SMK Pembangunan Jaya - Yakapi
+                            I am known for being detail-oriented, innovative, and always eager to learn the latest technologies.
+                             With a focus on collaboration and technical problem-solving, I am committed to delivering high-quality digital solutions that enhance business efficiency.</p>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+                    <div class="modal-content hero-modal-0 bg-transparent">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <video id="VisaChipCardVideo" class="w-100" controls="">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            <!--Browser does not support <video> tag -->
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end features -->
+
+            <!-- client section -->
+            <h2 class="fs-4 mt-5 mt-lg-0 text-center">
+                Here are the technologies I've been working with :
+            </h2>
+    <section class="py-5 clients">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="client-slider text-center">
+                        <div class="tiny-slide">
+                            <img src="images/html.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/css.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/bootstrap.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/php.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/java-script.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/adobe-illustrator.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="tiny-slide">
+                            <img src="images/canva.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <!--end client-slider-->
+                </div>
+                <!--end col-->
+            </div>
+        </div>
+    </section>
+    <!-- end section -->
+            
+    <!-- start service -->
+    <section class="section bg-light" id="projects">
+        <div class="container">
+            <div class="row justify-content-center mb-4 pb-2">
+                <div class="col-lg-6">
+                    <div class="heading text-center">
+                        <h2 class="mb-3"><span class="text-primary fw-normal"> My Projects </span>
+                        <p class="f-16 my-2 text-muted">I specialize in developing dynamic web applications and digital solutions that streamline processes and empower businesses. 
+                            With a passion for clean code and seamless user experiences, I transform ideas into impactful online platforms.</p>
+                            </h2>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4 pt-2">
+                    <div class="service-box text-center text-lg-start">
+                        <div class="blog-image overflow-hidden">
+                            <img src="images/service/img-1 (2).png" alt="" class="img-fluid w-100">
+                        </div>
+                        <h5 class="fw-bold mt-4 mb-3">Marketplace for Reseller</h5>
+                        <p> A platform enabling seamless product management and order processing.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 pt-2">
+                    <div class="service-box text-center text-lg-start">
+                        <div class="blog-image overflow-hidden">
+                            <img src="images/service/img-2.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <h5 class="fw-bold mt-4 mb-3">FlowInventory</h5>
+                        <p>
+                            A website used for monitoring the flow of incoming and outgoing goods.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4 pt-2">
+                    <div class="service-box text-center text-lg-start">
+                        <div class="blog-image overflow-hidden">
+                            <img src="images/service/img-3.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <h5 class="fw-bold mt-4 mb-3">Attendance with Geolocation Tracking</h5>
+                        <p>A website designed for attendance tracking, where users cannot bypass or manipulate the system.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end service -->
+     
+    <!-- counter section-->
+    <section class="counter ">
+        <div class="container">
+            <h2 class="title mt-3 text-center" style="color: #20ad96;">
+                Contact Me
+            </h2>
+            <div class="row align-items-center" id="contact">
+                <div class="col-lg-3 p-lg-0">
+                    <div class="counter-box py-0 py-lg-2 text-center position-relative">
+                        <div class="py-2 pb-0">
+                            <div class="counter-image fs-1">
+                                <a href="https://instagram.com/haiikall.ysf/" class="text-dark" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <h5 class="counter-caption mb-0 mt-3">haiikallysf</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-lg-0">
+                    <div class="counter-box py-0 py-lg-2 text-center position-relative">
+                        <div class="py-2 pb-0">
+                            <div class="counter-image fs-1">
+                                <a href="https://github.com/haiikalleee" class="text-dark" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                <h5 class="counter-caption mb-0 mt-3">haiikalleee</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 p-lg-0">
+                    <div class="counter-box py-0 py-lg-2 text-center position-relative">
+                        <div class="py-2 pb-0">
+                            <div class="counter-image fs-1">
+                                <a href="https://www.linkedin.com/in/muhammad-haikal-yusuf-024038335/" class="text-dark" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <h5 class="counter-caption mb-0 mt-3">Muhammad Haikal Yusuf</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+    <!-- end counter -->
+
+    <div class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="copy-right my-2 text-center text-muted">
+                        &#169; haiikall. All rights reserved. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+    <!-- counter -->
+    <script src="js/counter.init.js"></script>
+
+    <!-- Custom -->
+    <script src="js/app.js"></script>
+
+    <script>
+            (function () {
+                // Add event listener
+                document.addEventListener("mousemove", parallax);
+                const elem = document.querySelector("#home-animation");
+                // Magic happens here
+                function parallax(e) {
+                    let _w = window.innerWidth / 2;
+                    let _h = window.innerHeight / 2;
+                    let _mouseX = e.clientX;
+                    let _mouseY = e.clientY;
+                    let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+                    let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+                    let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+                    let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+                    elem.style.backgroundPosition = x;
+                }
+
+            })();
+
+    </script>
+    <script>
+        (function () {
+            // Add event listener
+            document.addEventListener("mousemove", parallax);
+            const elem = document.querySelector("#ani-round");
+            // Magic happens here
+            function parallax(e) {
+                let _w = window.innerWidth / 2;
+                let _h = window.innerHeight / 2;
+                let _mouseX = e.clientX;
+                let _mouseY = e.clientY;
+                let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+                let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+                let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+                let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+                elem.style.backgroundPosition = x;
+            }
+
+        })();
+
+    </script>
+
+</body>
+
+</html>
